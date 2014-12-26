@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home page</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    
+
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.js"></script>
+  </head>
+  <body>
+
+  <!-- TOP NAVIGATION START-->
+  <header class="navbar navbar-default navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="brand" href="#" title="Art forth"></a>
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            <li><a href="#">Shop</a></li>
+            <li><a href="#about">Gallery</a></li>
+            <li><a href="#contact">Connect</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- TOP NAVIGATION END-->
+
+  <!-- BANNER SECTION START -->
+  <div class="container">
+    <div class="banner-section">
+      <img src="img/banner.jpg" alt"banner-img">
+      <div class="banner-caption">
+        <h1>A pastime that lasts  a lifetime. <a href="#" title="shop our store" class="btn btn-green">Shop our store</a></h1>
+
+      </div>
+    </div>
+  </div>
+  <!-- BANNER SECTION END -->
+
+  <!-- PRODUCT SECTION START -->
+  <div class="container">
+    <div class="product-row">
+      <div class="product-box">
+        <div class="inner media">
+          <span class="pull-right"><img src="img/product1.jpg" alt="product-one"></span>
+          <div class="media-body">
+            <h3>Stay Inspired</h3>
+            <p>Subscribe to our needlepoint catalog and discover new products, ideas and inspiration.</p>
+            <div class="input-append">
+              <input class="span2" id="appendedInputButton" type="text" placeholder="Enter your e-mail address">
+              <button class="btn" type="button">Sign up!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="product-box">
+        <div class="inner media">
+          <span class="pull-right"><img src="img/product2.jpg" alt="product-two"></span>
+          <div class="media-body">
+            <h3>Shop needlepoint kits</h3>
+            <p>Bright and fun kits starting at $42.99.  New kits listed weekly.</p>
+            <a class="btn btn-green" title="shop our store" href="#">Shop sale item</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- PRODUCT SECTION END -->
+
+  <!-- SERVICES SECTION START -->
+  <div class="services">
+    <div class="container">
+      <div class="service-content">
+        <div class="owl-carousel" id="services">
+            <div class="item">
+              <h4>Gift Certificates</h4>
+              <img src="img/services1.jpg" alt="product one">
+              <p>Give the gift of needlepoint to someone you truly love. </p>
+              <a href="#" title="buy gift certificates">buy gift certificates</a>
+            </div>
+            <div class="item">
+              <h4>Our Current Trunk Show</h4>
+              <img src="img/services2.jpg" alt="product two">
+              <p>We carry the one of the largest in stock varaites of Silk and Ivory colors.  </p>
+              <a href="#" title="Shop our current trunk show Now">Shop our current trunk show Now</a>
+            </div>
+            <div class="item">
+              <h4>Events, Classes & Calendar</h4>
+              <img src="img/services3.jpg" alt="product three">
+              <p>Enhance your skills and learn new techniques in one of our classes.  </p>
+              <a href="#" title="Now Enrolling">Now Enrolling</a>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SERVICES SECTION END -->
+
+  <!-- FOOTER SECTION START -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row-fluid">
+        <div class="span9">
+          <ul class="footer-nav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Policies</a></li>
+            <li><a href="#">Catalog Request</a></li>
+            <li><a href="#">Browse Catalog</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <div class="sub-footer">
+            <div class="copyrights">&copy; 2013 Needlepoint. All Rights Reserved</div>
+            <ul>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Privacy Policy </a></li>
+              <li><a href="#">Site map</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="span3">
+          <ul class="social-icons">
+            <li><a title="facebook" class="facebook" href="#"></a></li>
+            <li><a title="twitter" class="twitter" href="#"></a></li>
+            <li><a title="pinterest" class="pinterest" href="#"></a></li>
+            <li><a title="google-plus" class="g-plus" href="#"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- FOOTER SECTION END -->
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:30,
+    nav:false,
+    dots:true,
+    responsive:{
+        0:{
+          items:1
+        },
+        600:{
+          items:2
+        },
+        1000:{
+          items:3,
+          dots:false,
+          mouseDrag:false
+        }
+      }
+    });
+  });
+  </script>
+  </body>
+</html>
